@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'json', '~> 1.3'
-  s.add_dependency 'omniauth-oauth', '~> 1.1'
+  s.add_dependency 'omniauth', '~> 1.0'
+  s.add_dependency 'omniauth-oauth2', '~> 1.0'
+  #s.add_dependency 'omniauth-oauth', '~> 1.1'
   s.add_development_dependency 'bundler', '~> 1.0'
 end
